@@ -1,3 +1,3 @@
-# vscode-git
-VSCode git을 사용하기 위한 저장소
-테스트중입니다.
+# SISNET-PROJECT
+
+(주)시스넷 의 프로젝트 git 입니다.
