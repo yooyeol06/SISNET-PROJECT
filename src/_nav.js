@@ -37,6 +37,18 @@ export default {
       },
     },
     {
+      name : '게시판 샘플',
+      url : '/board',
+      icon : 'icon-notebook',
+      children : [
+        {
+          name : 'Ajax+React',
+          url : '/board/ajax-board',
+          icon : 'icon-notebook'
+        }
+      ]
+    },
+    {
       name: 'Base',
       url: '/base',
       icon: 'icon-puzzle',
@@ -255,26 +267,26 @@ export default {
         },
       ],
     },
-    {
-      name: 'Disabled',
-      url: '/dashboard',
-      icon: 'icon-ban',
-      attributes: { disabled: true },
-    },
-    {
-      name: 'Download CoreUI',
-      url: 'https://coreui.io/react/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
-    {
-      name: 'Try CoreUI PRO',
-      url: 'https://coreui.io/pro/react/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
+    // {
+    //   name: 'Disabled',
+    //   url: '/dashboard',
+    //   icon: 'icon-ban',
+    //   attributes: { disabled: true },
+    // },
+    // {
+    //   name: 'Download CoreUI',
+    //   url: 'https://coreui.io/react/',
+    //   icon: 'icon-cloud-download',
+    //   class: 'mt-auto',
+    //   variant: 'success',
+    //   attributes: { target: '_blank', rel: "noopener" },
+    // },
+    // {
+    //   name: 'Try CoreUI PRO',
+    //   url: 'https://coreui.io/pro/react/',
+    //   icon: 'icon-layers',
+    //   variant: 'danger',
+    //   attributes: { target: '_blank', rel: "noopener" },
+    // },
   ],
 };
