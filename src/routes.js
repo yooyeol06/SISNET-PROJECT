@@ -37,6 +37,8 @@ const Users = React.lazy(() => import('./views/Users/Users'));
 const User = React.lazy(() => import('./views/Users/User'));
 
 const AjaxBoard = React.lazy(() => import('./views/Boards/BoardAjax/BoardAjaxMain'));
+const BoardRedux = React.lazy(() => import('./views/Boards/BoardRedux/BoardReduxMain'));
+const BoardFirebase = React.lazy(() => import('./views/Boards/BoardFirebase/BoardFirebaseMain'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
@@ -83,6 +85,8 @@ const routes = [
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
 
   { path: '/board/ajax-board', exact: true, name: 'User Details', component: AjaxBoard },
+  { path: '/board/board-redux', exact: true, name: 'User Details', component: BoardRedux },
+  { path: '/board/board-firebase', exact: true, name: 'User Details', component: BoardFirebase },
   
 ];
 

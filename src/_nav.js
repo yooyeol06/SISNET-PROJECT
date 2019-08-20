@@ -45,6 +45,16 @@ export default {
           name : 'Ajax+React',
           url : '/board/ajax-board',
           icon : 'icon-notebook'
+        },
+        {
+          name : 'React+Redux',
+          url : '/board/board-redux',
+          icon : 'icon-notebook'
+        },
+        {
+          name : 'React+Redux+firebase',
+          url : '/board/board-firebase',
+          icon : 'icon-notebook'
         }
       ]
     },
